@@ -20,4 +20,5 @@ jobs:
 
       - uses: cypress-io/github-action@v6
         with:
+          browser: electron
           headed: false
