@@ -13,7 +13,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
       - uses: cypress-io/github-action@v6
         with:
           browser: chrome
-          headed: false          browser: chrome
+          headed: false          browser: chrome          headed: false
