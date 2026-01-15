@@ -10,6 +10,7 @@ module.exports = defineConfig({
           launchOptions.args.push('--no-sandbox')
           launchOptions.args.push('--disable-gpu')
           launchOptions.args.push('--disable-dev-shm-usage')
+          launchOptions.args.push('--remote-debugging-port=9222') 
         }
 
         return launchOptions
