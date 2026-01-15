@@ -1,3 +1,4 @@
+describe('Smoke header Go2Che', () => {
 it('header menu is navigate user on desktop', () => {
     cy.viewport(1280, 800)
     cy.visit('/')
